@@ -106,11 +106,45 @@ pre{
 	width: 800px;
 }
 
+/*-------Multiple backgrounds--------*/
+
+.demo-3 {
+	background: url(img/hell.png), url(img/bg.png);
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+
+	border: 2px solid #000;
+	float: left;
+	height: 500px;
+	margin: 20px auto;
+	width: 800px;
+}
+
+/*---------background-clip------------*/
+.demo-4 {
+	border: 2px solid #000;
+	float: left;
+	height: 500px;
+	margin: 20px auto;
+	width: 800px;
+} 
 
 
+.ejemplo {
+	background: #3653D8;
+	background-clip: content-box;
+	border: solid #fff 10px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top:30px;
+	padding: 25px; 
+	width: 500px;
 
+}
 
-
+.ejemplo p {
+	background: #7AD942;
+}
 
 
 
